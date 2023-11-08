@@ -14,9 +14,9 @@ const Home = () => {
         <div style={{width:'100vw'}}>
             <Banner></Banner>
             <div data-aos="fade-up" data-aos-duration="3000" className='d-flex flex-column align-items-center p-5'>
-                <img className='h-25 w-50 mx-auto ' src={img1} alt="" style={{width:'60%', minWidth:'500px'}} />
+                <img className='h-25 w-50 mx-auto ' src={img1} alt="" style={{width:'60%'}} />
             </div>
-            <section className='bg-light d-flex flex-row-reverse justify-content-between align-items-center mx-auto fs-1 fw-bold p-5'>
+            <section className='bg-light d-flex flex-column flex-md-row-reverse justify-content-between align-items-center mx-auto fs-1 fw-bold p-5'>
                 <div className='d-flex flex-column justify-content-center'>
                     <div className='mx-auto mb-5 text-center text-warning'>Measure Items<br />(Phase And Line Parameter)</div>
                     <div className='d-flex flex-row justify-content-around fs-4'>
