@@ -11,14 +11,14 @@ import Monitoring1 from './Monitoring/Monitoring1';
 
 const Home = () => {
     return (
-        <div>
+        <div style={{width:'100vw'}}>
             <Banner></Banner>
-            <div className='d-flex flex-column align-items-center'>
-                <img className='h-25 w-50 mx-auto ' src={img1} alt="" />
+            <div className='d-flex flex-column align-items-center p-5'>
+                <img className='h-25 w-50 mx-auto ' src={img1} alt="" style={{width:'60%', minWidth:'500px'}} />
             </div>
             <section className='bg-light d-flex flex-row-reverse justify-content-between align-items-center mx-auto fs-1 fw-bold p-5'>
                 <div className='d-flex flex-column justify-content-center'>
-                    <div className='mx-auto mb-5 text-center'>Measure Items<br />(Phase And Line Parameter)</div>
+                    <div className='mx-auto mb-5 text-center text-warning'>Measure Items<br />(Phase And Line Parameter)</div>
                     <div className='d-flex flex-row justify-content-around fs-4'>
                         <ul style={{ listStyle: 'circle outside' }}>
                             <li>Current</li>
@@ -32,7 +32,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='mx-auto mb-5'>Safety Monitoring</div>
+                    <div className='mx-auto mb-5 text-warning'>Safety Monitoring</div>
                     <div className='fs-4'>
                         <ul>
                             <li>Phase Loss or Reovery</li>
