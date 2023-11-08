@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div style={{width:'100vw'}}>
             <Banner></Banner>
-            <div className='d-flex flex-column align-items-center p-5'>
+            <div data-aos="fade-up" data-aos-duration="3000" className='d-flex flex-column align-items-center p-5'>
                 <img className='h-25 w-50 mx-auto ' src={img1} alt="" style={{width:'60%', minWidth:'500px'}} />
             </div>
             <section className='bg-light d-flex flex-row-reverse justify-content-between align-items-center mx-auto fs-1 fw-bold p-5'>
