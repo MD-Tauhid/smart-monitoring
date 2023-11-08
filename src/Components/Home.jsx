@@ -18,8 +18,8 @@ const Home = () => {
             </div>
             <section className='bg-light d-flex flex-column flex-md-row-reverse justify-content-between align-items-center mx-auto fs-1 fw-bold p-5'>
                 <div className='d-flex flex-column justify-content-center'>
-                    <div className='mx-auto mb-5 text-center text-warning'>Measure Items<br />(Phase And Line Parameter)</div>
-                    <div className='d-flex flex-row justify-content-around fs-4'>
+                    <div className='mx-auto mb-5 text-center text-warning fs-3'>Measure Items<br />(Phase And Line Parameter)</div>
+                    <div className='d-flex flex-row justify-content-around fs-5'>
                         <ul style={{ listStyle: 'circle outside' }}>
                             <li>Current</li>
                             <li>Voltage</li>
@@ -32,8 +32,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='mx-auto mb-5 text-warning'>Safety Monitoring</div>
-                    <div className='fs-4'>
+                    <div className='mx-auto mb-5 text-warning fs-3'>Safety Monitoring</div>
+                    <div className='fs-5'>
                         <ul>
                             <li>Phase Loss or Reovery</li>
                             <li>Oil Level or Temperature</li>
@@ -44,7 +44,7 @@ const Home = () => {
                 </div>
             </section>
             <section className='d-flex flex-column justify-content-center mx-auto fs-1 fw-bold pt-5'>
-                <div className='text-uppercase text-info mx-auto mb-5 text-center'>Remote Monitoring & Report System</div>
+                <div className='text-uppercase text-info mx-md-auto mb-5 text-center overflow-auto'>Remote Monitoring & Report System</div>
                 <div className='w-100'>
                     <Monitoring img={img2} text={"Multiple Transformar Status"}></Monitoring>
                     <Monitoring1 img={img3} text={"Time Series Transformers Parameter"}></Monitoring1>
