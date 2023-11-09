@@ -1,3 +1,7 @@
 .text-shadow{
     text-shadow: 1px 1px rgb(85, 85, 85);
   }
+
+.gradient{
+    background-image: linear-gradient(to right,#5dd1f8, #3b96b4) ;
+}
