@@ -13,7 +13,7 @@ import './Home.css';
 
 const Home = () => {
     return (
-        <div className='overflow-hidden '>
+        <div className='overflow-hidden w-100'>
             <Banner></Banner>
             <div data-aos="fade-up" data-aos-duration="3000" className='d-flex flex-column align-items-center p-5'>
                 <img className='h-25 w-50 mx-auto ' src={img1} alt="" style={{width:'60%'}} />
